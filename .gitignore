@@ -1,0 +1,20 @@
+# Tes fichiers perso : ils ne doivent JAMAIS partir sur internet.
+# Si tu forkes ce kit pour le versionner, ces fichiers restent chez toi.
+context/CONTEXT.md
+context/HISTORY.md
+context/import/*
+!context/import/.gitkeep
+CLAUDE.local.md
+
+# Réglages locaux de Claude Code (contiennent le chemin de ton vault)
+.claude/settings.local.json
+
+# Secrets
+secret/
+.env
+.env.*
+
+# Système
+.DS_Store
+Thumbs.db
+desktop.ini
